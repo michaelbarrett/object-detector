@@ -1,0 +1,24 @@
+#+TITLE: Object Detection
+#+TITLE: Using HSV Color Detection
+#+TITLE: In OpenCV
+#+AUTHOR: by Michael Barrett
+#+DATE: September 4, 2020
+#+OPTIONS: toc:nil        (no default TOC at all)
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+
+* Overview
+The Object Detector detects objects in a photo by color and returns their coordinates in the photo as well as size, shape, and other properties. Currently, objects colored red, blue, and green are detectable. OpenCV's contour detection requires no machine learning making this a fast solution to the problem of detecting objects on a manufacturing table. For HSV color encoding, the level of light or shadow on the object is less important than it would be for color detection with RGB color encoding, allowing an object to be reliably detected as long as it is colored distinctly.
+* Functionality
+** Detecting a red object
+#+attr_html: :width 500px
+#+attr_latex: :width 500px
+[[~/opencv-pix/red-house-detect.png]]
+** Detecting a blue object
+#+attr_html: :width 500px
+#+attr_latex: :width 500px
+[[~/opencv-pix/blue-house-detect.png]]
+* Planned features
+- The ability to interface with the framework for the manufacturing machines
+- The ability to detect objects with colors other than red, blue, and green
+- The ability to compute the average color of a particular object in the photo as a rudimentary means of object recognition
+- The use of machine learning (custom-trained CNNs) to detect the identity of an object as a finer means of object recognition
