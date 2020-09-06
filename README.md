@@ -8,11 +8,11 @@ The Object Detector detects objects in a photo by color and returns their coordi
 
 ### Detecting a red object
 
-!()[]
+!(redobj)[https://github.com/michaelbarrett/object-detector/blob/master/opencv-pix/red-house-detect.png]
 
 ### Detecting a blue object
 
-!()[]
+!(blueobj)[https://github.com/michaelbarrett/object-detector/blob/master/opencv-pix/blue-house-detect.png]
 
 ## Other Possible Features
 
