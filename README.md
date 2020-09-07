@@ -8,12 +8,11 @@ The Object Detector detects objects in a photo by color and returns their coordi
 
 ### Detecting a red object
 
-<img src="../master/red-house-detect.png?raw=true" width="100" height="100" />
-!(redobj)[red-house-detect.png]
+<img src="../master/red-house-detect.png?raw=true" width="900" />
 
 ### Detecting a blue object
 
-!(blueobj)[blue-house-detect.png]
+<img src="../master/blue-house-detect.png?raw=true" width="900" />
 
 ## Other Possible Features
 
